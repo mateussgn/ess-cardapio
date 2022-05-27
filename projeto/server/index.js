@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "password",
+    password: "",
     database: "cardapio"
 });
 
